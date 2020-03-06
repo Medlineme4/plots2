@@ -22,7 +22,7 @@
    <% if @users.length > 0 %>
    <ul>
       <% @users.each do |user| %>
-      <li><a href="/profile/<%= user.username %>"><%= user.username %></a></li>
+      <li><a href="./profile/<%= user.username %>"><%= user.username %></a></li>
       <% end %>
    </ul>
    <% else %>
@@ -30,3 +30,4 @@
    <% end %>
   <% end %>
 </div>
+</form>
